@@ -10,7 +10,8 @@ CREATE TABLE [dbo].[Component]
 [afsdgsgsd] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [dfvdvbb] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [dfgnrfgfgnfgn] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[fgkyfj] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[fgkyfj] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[yjyukrfkur] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Component] ADD CONSTRAINT [PK_Component] PRIMARY KEY CLUSTERED  ([ComponentID]) ON [PRIMARY]
