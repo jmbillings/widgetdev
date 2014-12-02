@@ -1,0 +1,2 @@
+CREATE USER [someUser] WITHOUT LOGIN
+GO

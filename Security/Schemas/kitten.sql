@@ -1,0 +1,3 @@
+CREATE SCHEMA [kitten]
+AUTHORIZATION [dbo]
+GO
