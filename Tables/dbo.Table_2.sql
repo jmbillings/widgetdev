@@ -1,5 +1,7 @@
 CREATE TABLE [dbo].[Table_2]
 (
-[id] [int] NULL
+[id] [int] NOT NULL
 ) ON [PRIMARY]
+ALTER TABLE [dbo].[Table_2] ADD 
+CONSTRAINT [PK_Table_2] PRIMARY KEY CLUSTERED  ([id]) ON [PRIMARY]
 GO
