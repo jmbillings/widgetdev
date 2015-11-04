@@ -1,6 +1,7 @@
 CREATE TABLE [dbo].[Table_2]
 (
-[id] [int] NOT NULL
+[id] [int] NOT NULL,
+[gubbins] [nchar] (10) COLLATE Latin1_General_CI_AS NULL
 ) ON [PRIMARY]
 ALTER TABLE [dbo].[Table_2] ADD 
 CONSTRAINT [PK_Table_2] PRIMARY KEY CLUSTERED  ([id]) ON [PRIMARY]
