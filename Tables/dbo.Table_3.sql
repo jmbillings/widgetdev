@@ -2,7 +2,7 @@ CREATE TABLE [dbo].[Table_3]
 (
 [id] [int] NOT NULL,
 [things] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AI NULL,
-[morethings] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AI NULL,
+[morethings] [nchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AI NULL,
 [evenmorethings] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AI NULL
 ) ON [PRIMARY]
 GO
